@@ -1,6 +1,6 @@
 evaluaciones = int(input("Introduce el número de evaluaciones: "))
 
-for evaluacion in range(1, evaluaciones+1):
+for evaluacion in range(1, evaluaciones+1, 1):
     nota = float(input(f"Notas de la evaluación {evaluacion}: "))
     suma_total = 0
     contador_notas = 0
