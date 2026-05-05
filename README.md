@@ -38,13 +38,14 @@ Como consultar este repositorio:
 
 Qué tenéis que hacer para aprobar?
 
-[x] Practicar mucho código
-[x] Preguntar todas las dudas
-[] Echarse 10 rankeds al dia
+- [x] Practicar mucho código
+- [x] Preguntar todas las dudas
+- [ ] Echarse 10 rankeds al dia
 
 > "Siempre fallas el 100% de los tiros que no intentas" - Michael Scott
 
 |Unidades|Conceptos|Ejercicios resueltos|
+|--------|---------|--------------------|
 |1|tipos de datos|Si|
 |2|Estructuras de control|Si|
 |3|Listas|Si|
