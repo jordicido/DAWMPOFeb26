@@ -17,12 +17,7 @@ def dibujar_triangulo(altura, invertido=False):
         for j in range(i):
             print("*", end="")
         print()
-'''
-   *
-  ***
- *****
-*******
-'''
+
 def dibujar_piramide(altura):
     espacios = altura - 1
     simbolos = 1
