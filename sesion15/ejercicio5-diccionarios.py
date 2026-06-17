@@ -36,11 +36,14 @@ while True:
             print(f"Se ha añadido el libro {titulo} correctamente")
         case 2:
             autor = input("Introduce el autor del libro: ")
-            for libro in biblioteca:
-                if autor == libro["autor"]:
-                    print(f"Libro {libro["titulo"]}")
+            for i in range(len(biblioteca)):
+                if biblioteca[i]["autor"] == autor:
+                    print(biblioteca[i]["titulo"])
         case 3:
-            pass
+            año = int(input("Introduce el año de publicación del libro: "))
+            for i in range(len(biblioteca)):
+                if biblioteca[i]["año"] == año:
+                    print(biblioteca[i]["titulo"])
         case 4:
             print("Adiós")
             break
